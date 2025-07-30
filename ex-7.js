@@ -14,5 +14,5 @@ const employee2 = {
   },
 };
 
-const result2 = employee2.scores.english?? "English score is not defined";
+const result2 = employee2.scores?.english?? "English score is not defined";
 console.log(result2);
